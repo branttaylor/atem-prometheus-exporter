@@ -1,0 +1,20 @@
+{
+  "name": "atem-prometheus-exporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Brant Taylor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "prom-client": "^12.0.0",
+    "atem-connection": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:branttaylor/atem-prometheus-exporter.git"
+  }
+}
